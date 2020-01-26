@@ -43,3 +43,4 @@ ${btn_back_to_list_subject}          xpath=//*[@id="back_to_list_subject"]      
 # button
 ${btn_show_list_exam_review}        xpath=//*[@id="dataTable3"]/tbody/tr/td[6]/center/a     # คลิกเพื่อแสดงรายละเอียดการสอบ
 ${btn_show_score}                   xpath=//*[@id="show_model"]     # คลิ๊กเพื่อแสดงรายละเอียดของคำตอบ
+${btn_show_detail_exam}             xpath=//*[@id="close"]/span/i     # คลิ๊กเพื่อแสดงรายละเอียดของคำตอบ

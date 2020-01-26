@@ -19,3 +19,7 @@ Resource        Variables.resource
 แสดงรายละเอียดของคำตอบ
     click element                           ${btn_show_score} 
     sleep   1s
+
+แสดงรายละเอียดการสอบ
+    click element                           ${btn_show_detail_exam} 
+    sleep   1s
