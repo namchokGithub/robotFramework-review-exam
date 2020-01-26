@@ -9,18 +9,13 @@ Resource        Variables.resource
 เลือกภาคการศึกษา ${term}
     Select From List By Value               ${selector_term}     ${term}
 
+เลือกประเภทการสอบ ${type}
+    Select From List By Value               ${select_exam_type}     ${term}
+
 แสดงรายการการสอบ
-    click element                           ${btn_show_list_exam} 
+    click element                           ${btn_show_list_exam_review} 
     sleep   1s
 
-แสดงรายละเอียดการสอบ
-    click element                           ${btn_show_list_exam_info} 
-    sleep   1s
-
-แสดงรายละเอียดคำตอบ
-    click element                           ${btn_show_detail_answer} 
-    sleep   1s
-
-ส่งออกรายงานผลการสอบ
-    click element                           ${btn_export} 
+แสดงรายละเอียดของคำตอบ
+    click element                           ${btn_show_score} 
     sleep   1s

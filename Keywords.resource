@@ -46,7 +46,7 @@ Resource        Variables.resource
         click element               ${btn_menu_management}
         sleep                       1s 
 
-เลือกเมนูแสดงรายการผลการสอบ
+เลือกเมนูแสดงรายงานผลการสอบ
         click element               ${btn_menu_review}
         sleep                       1s 
 
