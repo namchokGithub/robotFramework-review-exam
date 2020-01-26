@@ -31,4 +31,4 @@ Resource                Keywords-review.resource
     AND เลือกภาคการศึกษา 1
     AND แสดงรายการการสอบ
     AND แสดงรายละเอียดการสอบ
-    # THEN ปิดเบราว์เซอร์
+    THEN ปิดเบราว์เซอร์
