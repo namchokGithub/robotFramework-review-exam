@@ -9,14 +9,12 @@ Resource        Variables.resource
         click element               ${btn_proceed_linkl} 
         # ------------------------------------------------- #
         Maximize Browser Window
-        sleep                       1s
 
 ปิดเบราว์เซอร์
         Close browser
 
 เข้าสู่ระบบกรอกด้วย "${username}" และ "${password}"
         Input Text      ${input_username}               ${username}
-        sleep  1s 
         Input Text      ${input_password}               ${password} 
         sleep  1s  
     
