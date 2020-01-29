@@ -22,32 +22,38 @@ Resource        Variables.resource
         click element               ${btn_login} 
         sleep                       1s
 
-เข้าสู่ระบบหน้าจอเมนูระบบทำข้อสอบออนไลน์
+เลือกเมนู
         click element               ${btn_hamburger} 
         sleep                       1s
+
+เลือกผู้ดูแลระบบ
         click element               ${menu_list_admin} 
         sleep                       1s
 
-เลือกผู้ใช้งานเป็นอาจารย์
+เลือกอาจารย์
         click element               ${btn_menu_teacher}
         sleep                       1s
 
-เลือกผู้ใช้งานเป็นนักเรียน
+เลือกนักเรียน
         click element               ${btn_menu_student}
         sleep                       1s
 
-เลือกเมนูทำข้อสอบออนไลน์
-        click element               ${btn_menu_testiing}
+เลือกเมนูสอบออนไลน์
+        click element               ${btn_menu_testing}
         sleep                       1s 
 
 เลือกเมนูการจัดการการสอบ
         click element               ${btn_menu_management}
         sleep                       1s 
 
-เลือกเมนูแสดงรายงานผลการสอบ
+เลือกเมนูแสดงผลการสอบ
         click element               ${btn_menu_review}
         sleep                       1s 
 
 เลือกเมนูส่งออกผลการสอบ
         click element               ${btn_menu_report}
         sleep                       1s 
+
+กดปุ่มยกเลิก
+        click element               ${btn_cancel}
+        sleep                       1s
